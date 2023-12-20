@@ -2,7 +2,7 @@ package ru.netology;
 
 import static org.testng.Assert.assertEquals;
 
-class CashBackHackServiceTest {
+public class CashBackHackServiceTest {
 
     @org.testng.annotations.Test
 
@@ -17,6 +17,7 @@ class CashBackHackServiceTest {
 
         assertEquals(actual, expected);
     }
+
     @org.testng.annotations.Test
     public void TestSecondTest() {
         CashBackHackService cashBackHackService = new CashBackHackService(); //1
